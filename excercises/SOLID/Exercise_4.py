@@ -1,6 +1,4 @@
 # Clients should not be forced to depend on interfaces they do not use.
-# https://www.pythontutorial.net/python-oop/python-interface-segregation-principle/ - use this example
-
 # ❌ BROKEN ISP: Interfaces force unused methods
 class Machine:
     def print(self):
